@@ -16,13 +16,6 @@ def main():
     testDistance_inicio()
     while(col.color() != 1):
         colocarPecas()
-    """
-    abrir()
-    testDistance()
-    direita()
-    testDistance()
-    direita()
-"""
 
 def colocarPecas():
     andar()
@@ -106,12 +99,6 @@ def testColor_inicio():
  
 
 def testColor():
-    """
-    cores = []
-    while(cores.len()<25):
-        cores.append(col.color)
-        print(cores)
-    """
     x = True
     while(x):
         if(col.color() == 7):
@@ -189,24 +176,19 @@ def testColor():
             x = False
         print(col.color())
         if(col.color() == 2):
-            #fechar()
             fechar()
             sleep(1)
-            #parado()
             andar_tras()
             andar_tras()
-            #parado()
             direita()
             andar_tras()
             andar_tras()
             andar_tras()
             esquerda()
-            #parado()
             andar_tras_inicio()
             andar24()
             abrir()
             sleep(1)
-            #parado()
             andar_tras24()
             andar_tras_inicio()
             x = False
@@ -231,8 +213,6 @@ def testDistance_inicio():
 
 def testDistance():
 
-    #abrir()
-    
     ola = 16
     print(ola)
     while(ola>15):
