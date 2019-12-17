@@ -233,7 +233,7 @@ def parado():
     tank_drive.on_for_seconds(SpeedPercent(0), SpeedPercent(0), 10)
 
 def abrir():
-    m.on_for_rotations(SpeedPercent(-50), 4) #Subir/Descer a garra
+    m.on_for_rotations(SpeedPercent(-75),5) #Subir/Descer a garra
 
 def andar():
     tank_drive.on_for_seconds(SpeedPercent(25), SpeedPercent(25), 1) #Rodar/Andar robot
