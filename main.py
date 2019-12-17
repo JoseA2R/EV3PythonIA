@@ -25,13 +25,8 @@ def main():
     abrir()
     testDistance_inicio()
     cores.reverse()
-    while(col.color() != 1):
+    while(len(cores) > 0):
         colocarPecas()
-    while(1):
-        print("rojo: " + vermelho)
-        print("amarillo: " + amarelo)
-        print("verde: " + verde)
-        print("azul: " + azul)
     parado()
 
 def colocarPecas():
