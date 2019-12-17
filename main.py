@@ -239,48 +239,129 @@ def andar():
     tank_drive.on_for_seconds(SpeedPercent(25), SpeedPercent(25), 1) #Rodar/Andar robot
 
 def andar44():
-    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(68), 6.75)
-    sleep(1)
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
     esquerda()
-    sleep(1)
-    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(68), 7.5)
-    abrir()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7.5)
 
 def andar43():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.75)
-    abrir()
+
+def andar42():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4.25)
+
+def andar41():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.75)
+
+def andar40():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
 
 def andar34():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.30)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
-    abrir()
 
 def andar33():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.30)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.75)
-    abrir()
+
+def andar32():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.30)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4.25)
+
+def andar31():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.30)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.75)
+
+def andar30():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.30)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
 
 def andar24():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
-    abrir()
+
+def andar23():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.75) 
+
+def andar22():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4.25)
+
+def andar21():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.75)
+
+def andar20():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
 
 def andar14():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.5)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
-    abrir()
+
+def andar13():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.5)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.75)
+
+def andar12():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.5)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4.25)
+
+def andar11():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.5)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.75)
+
+def andar10():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.5)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
 
 def andar04():
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
     esquerda()
     tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 7)
-    abrir()
+
+def andar03():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 5.75)
+
+def andar02():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 4.25)
+
+def andar01():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 2.75)
+
+def andar00():
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
+    esquerda()
+    tank_drive.on_for_seconds(SpeedPercent(70), SpeedPercent(70), 1)
 
 def andar_tras():
     tank_drive.on_for_seconds(SpeedPercent(-25), SpeedPercent(-25), 1) #Rodar/Andar robot
@@ -290,39 +371,129 @@ def andar_tras_inicio():
         tank_drive.on_for_seconds(SpeedPercent(-25), SpeedPercent(-25), 1) #Rodar/Andar robot
 
 def andar_tras44():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 7)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 7)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 6.25)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6.25)
 
 def andar_tras43():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 6)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6)
+
+def andar_tras42():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6)
+
+def andar_tras41():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6)
+
+def andar_tras40():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 1)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6)
 
 def andar_tras34():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 5.75)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5.75)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
 
 def andar_tras33():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 5.5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5.5)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
+
+def andar_tras32():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
+
+def andar_tras31():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
+
+def andar_tras30():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 1)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5)
 
 def andar_tras24():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 6.75)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6.75)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 3.5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3.5)
+
+def andar_tras23():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5.75)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3.5)
+
+def andar_tras22():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 4.5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3.5)
+
+def andar_tras21():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3.5)
+
+def andar_tras20():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 1)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3.5)
 
 def andar_tras14():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 6.75)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6.75)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 2)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 2)
+
+def andar_tras13():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 5.5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 2)
+
+def andar_tras12():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 4.5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 2)
+
+def andar_tras11():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 2)
+
+def andar_tras10():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 1)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 2)
 
 def andar_tras04():
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 7)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 7)
     direita()
-    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-68), 0.5)
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 0.5)
+
+def andar_tras03():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 6)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 0.5)
+
+def andar_tras02():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 4.5)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 0.5)
+
+def andar_tras01():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 3)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 0.5)
+
+def andar_tras00():
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 1)
+    direita()
+    tank_drive.on_for_seconds(SpeedPercent(-70), SpeedPercent(-70), 0.5)
 
 def fechar():
     m.on_for_rotations(SpeedPercent(75), 5) #Subir/Descer a garra
