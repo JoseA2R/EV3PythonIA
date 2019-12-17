@@ -11,6 +11,11 @@ us = UltrasonicSensor(Port.S4)
 m = MediumMotor(OUTPUT_A)
 tank_drive = MoveTank(OUTPUT_B, OUTPUT_C)
 
+vm = 0  #vermelho
+am = 0  #amarelo
+vd = 0  #verde
+az = 0  #azul
+
 def main():
     abrir()
     testDistance_inicio()
@@ -99,6 +104,11 @@ def testColor_inicio():
 
 def testColor():
     x = True
+    global vm #vermelho 5
+    global am #amarelo  4
+    global vd #verde    3
+    global az #azul     2
+
     while(x):
         if(col.color() == 7):
             fechar()
@@ -131,11 +141,33 @@ def testColor():
             andar_tras()
             esquerda()
             andar_tras_inicio()
-            andar44()
-            abrir()
-            abrir()
             sleep(1)
-            andar_tras44()
+            vm += 1
+            print("vermelho") 
+            if(vm == 1):
+                andar44()
+                abrir()
+                abrir()
+                parado()
+                andar_tras44()
+            if(vm == 2):
+                andar43()
+                abrir()
+                abrir()
+                parado()
+                andar_tras43()
+            if(vm == 3):
+                andar42()
+                abrir()
+                abrir()
+                parado()
+                andar_tras42()
+            if(vm == 4):
+                andar04()
+                abrir()
+                abrir()
+                parado()
+                andar_tras04()
             andar_tras_inicio()
             x = False
         print(col.color())
@@ -151,11 +183,33 @@ def testColor():
             andar_tras()
             esquerda()
             andar_tras_inicio()
-            andar43()
-            abrir()
-            abrir()
-            parado()
-            andar_tras43()
+            sleep(1)
+            am += 1
+            print("amarelo") 
+            if(am == 1):
+                andar34()
+                abrir()
+                abrir()
+                parado()
+                andar_tras34()
+            if(am == 2):
+                andar33()
+                abrir()
+                abrir()
+                parado()
+                andar_tras33()
+            if(am == 3):
+                andar32()
+                abrir()
+                abrir()
+                parado()
+                andar_tras32()
+            if(am == 4):
+                andar03()
+                abrir()
+                abrir()
+                parado()
+                andar_tras03()
             andar_tras_inicio()
             x = False
         print(col.color())
@@ -171,10 +225,33 @@ def testColor():
             andar_tras()
             esquerda()
             andar_tras_inicio()
-            andar34()
-            abrir()
-            abrir()
-            andar_tras34()
+            sleep(1)
+            vd += 1
+            print("verde") 
+            if(vd == 1):
+                andar24()
+                abrir()
+                abrir()
+                parado()
+                andar_tras24()
+            if(vd == 2):
+                andar23()
+                abrir()
+                abrir()
+                parado()
+                andar_tras23()
+            if(vd == 3):
+                andar22()
+                abrir()
+                abrir()
+                parado()
+                andar_tras22()
+            if(vd == 4):
+                andar02()
+                abrir()
+                abrir()
+                parado()
+                andar_tras02()
             andar_tras_inicio()
             x = False
         print(col.color())
@@ -190,10 +267,33 @@ def testColor():
             andar_tras()
             esquerda()
             andar_tras_inicio()
-            andar24()
-            abrir()
             sleep(1)
-            andar_tras24()
+            az += 1
+            print("azul") 
+            if(az == 1):
+                andar14()
+                abrir()
+                abrir()
+                parado()
+                andar_tras14()
+            if(az == 2):
+                andar13()
+                abrir()
+                abrir()
+                parado()
+                andar_tras13()
+            if(az == 3):
+                andar12()
+                abrir()
+                abrir()
+                parado()
+                andar_tras12()
+            if(az == 4):
+                andar02()
+                abrir()
+                abrir()
+                parado()
+                andar_tras02()
             andar_tras_inicio()
             x = False
         print(col.color())
@@ -233,7 +333,7 @@ def parado():
     tank_drive.on_for_seconds(SpeedPercent(0), SpeedPercent(0), 10)
 
 def abrir():
-    m.on_for_rotations(SpeedPercent(-75),5) #Subir/Descer a garra
+    m.on_for_rotations(SpeedPercent(-75), 4) #Subir/Descer a garra
 
 def andar():
     tank_drive.on_for_seconds(SpeedPercent(25), SpeedPercent(25), 1) #Rodar/Andar robot
